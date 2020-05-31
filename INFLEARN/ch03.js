@@ -52,3 +52,8 @@ log(iter2.next());
 
 log("---------");
 for (const a of odds(40)) log(a);
+
+const [a, b, ...rest] = odds(40);
+log(a);
+log(b);
+log(rest);
