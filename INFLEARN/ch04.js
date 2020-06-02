@@ -76,3 +76,5 @@ log(
     )
   )
 );
+
+module.exports = { map, filter, reduce };
